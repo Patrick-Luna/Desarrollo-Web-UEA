@@ -1,0 +1,20 @@
+/* Estilo personalizado para Patrick Luna */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffc107 !important; /* Dorado tipo pan */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #fff3cd; /* Resalte al pasar el mouse */
+    transition: 0.3s;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 400px;
+}
